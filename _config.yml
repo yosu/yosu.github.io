@@ -12,3 +12,10 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Exclude
+exclude: [
+  Gruntfile.js,
+  node_modules,
+  package.json
+]
