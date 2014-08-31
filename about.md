@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+このブログは、プログラミングやソフトウェア開発について[@yosu](http://twitter.com/yosu)が興味のおもむくままに書いていくブログです。
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+### 著者について
+
+1981年生まれのソフトウェア開発エンジニア。2010年からWeb開発を始め、継続的なサービス開発とその中で変化に対応できるアーキテクチャや組織作りに興味があります。
