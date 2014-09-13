@@ -190,14 +190,43 @@ pre {
  */
 .icon {
 
-    > svg {
+    > i {
+        //font-size: 1.125em;
+        font-size: 18px;
         display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+        color: $grey-color;
+    }
+}
 
-        path {
-            fill: $grey-color;
-        }
+.icon-twitter {
+    &:hover {
+        color: $twitter-color;
+    }
+}
+
+.icon-github {
+    &:hover {
+        color: $github-color;
+    }
+}
+
+.icon-rss {
+    &:hover {
+        color: $rss-color;
+    }
+}
+
+/**
+ * Powered
+ */
+.powered {
+    color: #bdc3c7;
+    margin: 0;
+    line-height: 1;
+    font-size: 12px;
+    padding-bottom: $spacing-unit;
+
+    > a {
+        color: inherit;
     }
 }
