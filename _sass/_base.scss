@@ -188,14 +188,19 @@ pre {
 /**
  * Icons
  */
-.icon {
+#about-icon {
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%);
 
-    > i {
-        //font-size: 1.125em;
-        font-size: 18px;
-        display: inline-block;
-        color: $grey-color;
+    &:hover {
+        -webkit-filter: grayscale(0%);
     }
+}
+
+.social-icon {
+    font-size: 20px;
+    color: $grey-color;
+    vertical-align: middle;    
 }
 
 .icon-twitter {

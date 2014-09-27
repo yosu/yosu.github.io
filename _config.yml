@@ -8,6 +8,9 @@ url: "http://yosulog.com" # the base hostname & protocol for your site
 twitter_username: yosu
 github_username:  yosu
 
+timezone: "Asia/Tokyo"
+permalink: "/:year/:month/:day/:title/"
+
 # Build settings
 markdown: kramdown
 

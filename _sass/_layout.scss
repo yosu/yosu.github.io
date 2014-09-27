@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -13,7 +13,9 @@
 .site-title {
     font-size: 26px;
     line-height: 56px;
-    letter-spacing: -1px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.05em;
+    //font-weight: 300;
     margin-bottom: 0;
     float: left;
     text-transform: uppercase;
@@ -94,6 +96,18 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
+    padding-top: $spacing-unit / 2;
+
+    .media-list {
+        margin-left: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-right: $spacing-unit / 2;
+            line-height: 32px;
+        }
+    }
 }
 
 .footer-heading {
@@ -101,8 +115,7 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
+.contact-list {
     list-style: none;
     margin-left: 0;
 
@@ -111,6 +124,40 @@
         margin-right: 15px;
     }
 }
+
+#about-icon {
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%);
+
+    &:hover {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+.social-icon {
+    font-size: 20px;
+    color: $grey-color;
+    vertical-align: middle;
+}
+
+.icon-twitter {
+    &:hover {
+        color: $twitter-color;
+    }
+}
+
+.icon-github {
+    &:hover {
+        color: $github-color;
+    }
+}
+
+.icon-rss {
+    &:hover {
+        color: $rss-color;
+    }
+}
+
 
 /**
  * Page content
@@ -187,4 +234,14 @@
             font-size: 18px;
         }
     }
+}
+
+.header-line {
+    width: 100%;
+    height: 5px;
+    //background-color: $brand-color;
+    //background-color: #803F82;
+    //background-image: linear-gradient(left, #1C0113, #F03C02);
+    background: -webkit-linear-gradient(left, #1C0113, #F03C02);
+    //background: -webkit-linear-gradient(left, #1C0113 30%, #6B0103, #A30006, #C21A01, #F03C02);
 }

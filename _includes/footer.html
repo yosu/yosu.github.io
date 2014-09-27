@@ -1,21 +1,29 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-    <p>
-      <ul class="social-media-list">
-        <li>
-          <a href="https://github.com/{{ site.github_username }}" target="_blank">
-            <span class="icon"><i class="fa fa-github icon-github"></i></span></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><span class="icon"><i class="fa fa-twitter icon-twitter"></i></span></a>
-        </li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="icon"><i class="fa fa-rss icon-rss"></i></span></a></li>
-      </ul>
-    </p>
+    <ul class="media-list">
+      <li>
+        <a href="/about">
+          <div class="frame"><img id="about-icon" src="/images/about_icon.jpeg" alt="about" title="about"></div>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+          <span class="social-icon icon-twitter"><i class="fa fa-twitter"></i></span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <span class="social-icon icon-github"><i class="fa fa-github"></i></span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+          <span class="social-icon icon-rss"><i class="fa fa-rss"></i></span>
+        </a>
+      </li>
+    </ul>
     <p class="powered">
-      Powered by the <a href="http://jekyllrb.com/">Jekyll</a>
+      Powered by <a href="http://jekyllrb.com/">Jekyll</a>
     </p>
   </div>
-
 </footer>
