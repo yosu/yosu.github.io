@@ -93,6 +93,17 @@
     }
 }
 
+.powered {
+    color: #bdc3c7;
+    margin: 0;
+    line-height: 1;
+    font-size: 12px;
+    padding-bottom: $spacing-unit;
+
+    > a {
+        color: inherit;
+    }
+}
 
 /**
  * Page content
@@ -179,10 +190,4 @@
     //background-image: linear-gradient(left, #1C0113, #F03C02);
     background: -webkit-linear-gradient(left, #1C0113, #F03C02);
     //background: -webkit-linear-gradient(left, #1C0113 30%, #6B0103, #A30006, #C21A01, #F03C02);
-}
-
-img[alt=aboutme] {
-    float: left;
-    margin-right: $spacing-unit / 2;
-    margin-bottom: $spacing-unit / 2;
 }
