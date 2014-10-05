@@ -10,12 +10,21 @@
     position: relative;
 }
 
+.site-header:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: $header-gradient-left-color;
+    background-image: linear-gradient(left, $header-gradient-left-color, $header-gradient-right-color);
+    background-image: -webkit-linear-gradient(left, $header-gradient-left-color, $header-gradient-right-color);
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 0.05em;
-    //font-weight: 300;
+    letter-spacing: 0.1em;
     margin-bottom: 0;
     float: left;
     text-transform: uppercase;
@@ -180,14 +189,4 @@
             font-size: 18px;
         }
     }
-}
-
-.header-line {
-    width: 100%;
-    height: 5px;
-    //background-color: $brand-color;
-    //background-color: #803F82;
-    //background-image: linear-gradient(left, #1C0113, #F03C02);
-    background: -webkit-linear-gradient(left, #1C0113, #F03C02);
-    //background: -webkit-linear-gradient(left, #1C0113 30%, #6B0103, #A30006, #C21A01, #F03C02);
 }
