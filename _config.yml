@@ -4,7 +4,7 @@ email: "woodstock830 {at} gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
   Webテクノロジー、プログラミング、ソフトウェア開発についてのブログです。
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yosulog.com" # the base hostname & protocol for your site
+url: "http://yosu.github.io" # the base hostname & protocol for your site
 twitter_username: yosu
 github_username:  yosu
 
